@@ -1,34 +1,89 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Saarasi Technologies delivers enterprise platform implementation, quality engineering and data engineering services.">
     <title>Saarasi Technologies</title>
     <link rel="icon" type="image/png" href="images/SnWaves.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="site-header">
-        <a class="brand" href="/" aria-label="Saarasi Technologies home">
+        <a class="brand" href="#top" aria-label="Saarasi Technologies home">
             <img class="company-banner" src="images/SaarasiLogo.png" alt="Saarasi Technologies">
         </a>
         <nav class="site-navigation" aria-label="Primary navigation">
             <ul class="nav-menu">
-                <!-- Add future navigation items here. -->
+                <li><a href="#services">Services</a></li>
+                <li><a href="#approach">How we work</a></li>
+                <li><a class="nav-cta" href="#contact">Talk to us</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="container">
-        <h1>Coming Soon</h1>
-        <p>We're building something new. Leave your email below to get notified when we launch.</p>
-        
-        <form class="subscribe-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing!');">
-            <input type="email" placeholder="Enter your email address" required>
-            <button type="submit">Notify Me</button>
-        </form>
-    </div>
+    <main id="top">
+        <section class="hero section-shell">
+            <div class="hero-copy">
+                <p class="eyebrow">Enterprise delivery, made practical</p>
+                <h1>Enterprise platforms that move your business forward.</h1>
+                <p class="hero-text">Saarasi Technologies helps teams implement, test and scale the systems that power better customer experiences and smarter decisions.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#contact">Start a conversation</a>
+                    <a class="button button-secondary" href="#services">Explore our services</a>
+                </div>
+            </div>
+            <div class="hero-visual" aria-hidden="true">
+                <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+                <div class="signal-card signal-card-top"><span></span><span></span><span></span></div>
+                <div class="signal-card signal-card-bottom"><span></span><span></span><span></span></div>
+                <div class="hero-mark">S</div>
+            </div>
+        </section>
 
+        <section class="services-section" id="services">
+            <div class="section-shell">
+                <div class="section-heading">
+                    <p class="eyebrow">What we do</p>
+                    <h2>Specialist services for connected enterprises.</h2>
+                    <p>From platform implementation to data foundations, we bring focused expertise across the systems your teams depend on every day.</p>
+                </div>
+                <div class="services-grid">
+                    <article class="service-card"><div class="service-icon">SF</div><h3>Salesforce implementation</h3><p>Configure and extend Salesforce to give your sales, service and operations teams a single, scalable customer platform.</p><ul><li>Sales and service cloud delivery</li><li>Workflow and integration design</li><li>Adoption-ready platform rollouts</li></ul></article>
+                    <article class="service-card"><div class="service-icon">SN</div><h3>ServiceNow implementation</h3><p>Build efficient service operations with ServiceNow implementations designed around real workflows, measurable outcomes and lasting adoption.</p><ul><li>IT service management workflows</li><li>Process automation and integrations</li><li>Platform optimisation and governance</li></ul></article>
+                    <article class="service-card"><div class="service-icon">QA</div><h3>End-to-end QA &amp; testing</h3><p>Protect every release with quality engineering that covers the full journey—from strategy and automation to performance and reliability.</p><ul><li>Functional and regression testing</li><li>Test automation frameworks</li><li>Performance and release assurance</li></ul></article>
+                    <article class="service-card"><div class="service-icon">DE</div><h3>Data engineering</h3><p>Turn fragmented operational data into reliable, well-governed foundations for reporting, analytics and intelligent decisions.</p><ul><li>Modern data pipelines</li><li>Warehousing and data modelling</li><li>Data quality and observability</li></ul></article>
+                </div>
+            </div>
+        </section>
+
+        <section class="value-section section-shell">
+            <div class="section-heading compact-heading"><p class="eyebrow">Built for delivery</p><h2>A clear path from ambition to adoption.</h2></div>
+            <div class="value-grid">
+                <article><strong>Business-first</strong><p>Every engagement starts with the outcomes your people, customers and operations need.</p></article>
+                <article><strong>Platform expertise</strong><p>Focused delivery across Salesforce, ServiceNow, quality engineering and data.</p></article>
+                <article><strong>Quality throughout</strong><p>Thoughtful testing and documentation are embedded from discovery to handover.</p></article>
+            </div>
+        </section>
+
+        <section class="approach-section" id="approach">
+            <div class="section-shell">
+                <div class="section-heading"><p class="eyebrow">How we work</p><h2>Structured enough to stay on track. Flexible enough to deliver what matters.</h2></div>
+                <ol class="process-grid">
+                    <li><span>01</span><h3>Discover</h3><p>We understand your current platforms, processes and goals.</p></li>
+                    <li><span>02</span><h3>Design</h3><p>We shape a practical roadmap, architecture and delivery plan.</p></li>
+                    <li><span>03</span><h3>Deliver</h3><p>We build iteratively, test thoroughly and keep stakeholders close.</p></li>
+                    <li><span>04</span><h3>Enable</h3><p>We help your teams adopt, operate and continuously improve.</p></li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="contact-section section-shell" id="contact">
+            <div><p class="eyebrow">Let’s build what’s next</p><h2>Ready to make your enterprise systems work harder?</h2><p>Tell us about the platform, quality or data challenge you want to solve. We’ll start with a practical conversation.</p></div>
+            <span class="button button-primary button-static">Contact details coming soon</span>
+        </section>
+    </main>
+
+    <footer class="site-footer"><img src="images/SnWaves.png" alt="" aria-hidden="true"><p>© 2026 Saarasi Technologies. Enterprise platforms, quality and data engineering.</p></footer>
 </body>
 </html>
